@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1626449576 source:c:\users\gabriel almeida\documents\classroom\computação iii\aula03\main.cpp
+	<iostream>
+	<stdio.h>
+	"Pilhaint.h"
+
+1626465502 c:\users\gabriel almeida\documents\classroom\computação iii\aula03\pilhaint.h
+
+1626449622 source:c:\users\gabriel almeida\documents\classroom\computação iii\aula03\pilhaint.cpp
+	<iostream>
+	<stdio.h>
+	"Pilhaint.h"
+
