@@ -1,5 +1,18 @@
 # depslib dependency file v1.0
-1627067278 source:c:\users\gabriel almeida\documents\classroom\computação iii\aulas\aula05_textos\definindo_fora.cpp
+1627068262 source:c:\users\gabriel almeida\documents\classroom\computação iii\aulas\aula05_textos\definindo_fora.cpp
 	<iostream>
 	<vector>
+
+1627069189 source:c:\users\gabriel almeida\documents\classroom\computação iii\aulas\aula05_textos\novo_for.cpp
+	<iostream>
+
+1627176996 source:c:\users\gabriel almeida\documents\classroom\computação iii\aulas\aula05_textos\heranca.cpp
+	<iostream>
+
+1627246004 source:c:\users\gabriel almeida\documents\classroom\computação iii\aulas\aula05_textos\inici_atributos.cpp
+	<iostream>
+	<string>
+
+1627246697 source:c:\users\gabriel almeida\documents\classroom\computação iii\aulas\aula05_textos\arrays_const_dest.cpp
+	<iostream>
 

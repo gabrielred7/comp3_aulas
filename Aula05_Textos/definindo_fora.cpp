@@ -17,7 +17,7 @@ private:
     T d[N];
 };
 
-ostream& operator << (ostream& o, const Vetor<3, double> &v){
+ostream& operator << (ostream& o, const Vetor<3, double>& v){
     v.imprime(o);
     return o;
 }

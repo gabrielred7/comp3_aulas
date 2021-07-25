@@ -11,7 +11,6 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="3" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -33,11 +32,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="arrays_const_dest.cpp" />
 		<Unit filename="definindo_dentro.cpp">
 			<Option target="Release" />
 		</Unit>
-		<Unit filename="definindo_fora.cpp" />
+		<Unit filename="definindo_fora.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="heranca.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="inici_atributos.cpp">
+			<Option target="Release" />
+		</Unit>
 		<Unit filename="main.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="novo_for.cpp">
 			<Option target="Release" />
 		</Unit>
 		<Extensions>
