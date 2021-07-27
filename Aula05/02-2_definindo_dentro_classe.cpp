@@ -4,12 +4,12 @@ using namespace std;
 
 /* Redefinindo operador dentro da classe */
 Matriz adicao(const Matriz& a, const Matriz& b){
-    // uma função que soma matrizes
+    // uma funï¿½ï¿½o que soma matrizes
 }
 
 class Matriz {
 public:
-    // Redefinição do operador chamando a função anterior
+    // Redefiniï¿½ï¿½o do operador chamando a funï¿½ï¿½o anterior
     Matriz operator + (const Matriz& b) const {
         return adicao(*this, b);
     }

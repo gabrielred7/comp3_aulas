@@ -7,7 +7,8 @@ public:
     //Construtor
     PilhaInt();
     PilhaInt(const PilhaInt& p);
-    //Funções de acesso aos dados (métodos)
+    
+    //Funï¿½ï¿½es de acesso aos dados (mï¿½todos)
     void empilha(int valor);
     int desempilha();
 
@@ -19,7 +20,7 @@ public:
         return *this; //ponteiro para o proprio objeto
     }
 
-    //Sobreposição
+    //Sobreposiï¿½ï¿½o
     PilhaInt& operator << (int valor){
         empilha(valor);
         return *this;
