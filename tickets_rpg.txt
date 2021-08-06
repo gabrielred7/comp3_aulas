@@ -1,0 +1,8 @@
+Tickets de Cenas
+
+Theo::Cena de Combate - Vs. Kobolds (50 XP; 20 T$; 0 PdI)
+Musa::Cena de Interpretação - Na Mansão dos Ricaços (20 XP; 0 T$; 3 PdI)
+Zahid::Cena de Exploração - Rastros em Frente a Cidade (30 XP; 10 T$; 1 PdI)
+
+Tickets de Aventuras
+Theo::Casamento Sobre A Luz da Lua (680 XP; 100 T$; 5 PdI)

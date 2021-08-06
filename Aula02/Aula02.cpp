@@ -1,10 +1,10 @@
 #include <iostream>
 #include <stdio.h>
 
-#define MAX_PILHA 10
+const int MAX_PILHA = 20
 using namespace std;
 
-//Evolução com OO do exemplo anterior
+//Evoluï¿½ï¿½o com OO do exemplo anterior
 class PilhaInt{
 public:
 
@@ -15,7 +15,7 @@ public:
         atual = 0;
     }
 
-    //Funções de acesso aos dados (métodos)
+    //Funï¿½ï¿½es de acesso aos dados (mï¿½todos)
     void empilha(int valor){
         tab[atual++] = valor;
     }
@@ -25,7 +25,6 @@ public:
     }
 
 private:
-
     // Estrutura de dados escondida
     int tab[MAX_PILHA];
     int atual;
@@ -36,7 +35,6 @@ int main(){
     int x;
 
     p.empilha(8);
-    p.empilha(11);
     x = p.desempilha();
     cout << "Funcionou" << endl;
 }

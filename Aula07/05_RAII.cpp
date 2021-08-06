@@ -1,26 +1,7 @@
-#include <fstream>
-#include <iostream>
-#include <mutex>
-#include <stdexcept>
-#include <string>
+/* 
 
-void WriteToFile(const std::string& message) {
-  // |mutex| is to protect access to |file| (which is shared across threads).
-  static std::mutex mutex;
+Aquisição de Recurso é Inicialização (conhecido pelo acrônimo RAII para o termo em língua inglesa Resource Acquisition Is Initialization) é um padrão de projeto de software para C++, D e Rust que combina a aquisição e liberação de recursos com inicialização e destruição de objetos.
 
-  // Lock |mutex| before accessing |file|.
-  std::lock_guard<std::mutex> lock(mutex);
+Segundo a RAII, o uso de memória de um objeto inicia-se na sua declaração, e termina quando o objeto sai do escopo, seja porque a execução chegou ao final do bloco, ou porque uma exceção foi lançada. A liberação de memória é possível através do uso dos métodos destrutores da classe – a liberação da memória no destrutor garante que ela será realizada em qualquer caminho que o fluxo seguir, tornando o código seguro.[1][2] 
 
-  // Try to open file.
-  std::ofstream file("example.txt");
-  if (!file.is_open()) {
-    throw std::runtime_error("unable to open file");
-  }
-
-  // Write |message| to |file|.
-  file << message << std::endl;
-
-  // |file| will be closed first when leaving scope (regardless of exception)
-  // mutex will be unlocked second (from lock destructor) when leaving scope
-  // (regardless of exception).
-}
+*/

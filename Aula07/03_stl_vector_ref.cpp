@@ -14,9 +14,4 @@ int main(){
     for (vector<int> :: value_type x : v){ //value_type é para se ter certeza do tipo
         cout << x << " ";
     }
-
-    for (vector<int> :: iterator i = v.begin()){
-        cout << " ";
-    }
-    
 }
