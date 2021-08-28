@@ -1,3 +1,7 @@
+//Métodos const
+
+/* Métodos podem ser const se não alterarem nenhum campo do objeto */
+
 #include <iostream>
 using namespace std;
 
